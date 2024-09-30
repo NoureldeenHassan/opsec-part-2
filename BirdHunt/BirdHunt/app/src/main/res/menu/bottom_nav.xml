@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile"
+        android:id="@+id/profileNav"
+        android:icon="@drawable/user"/>
+    <item android:title="Map"
+        android:id="@+id/mapNav"
+        android:icon="@drawable/map"/>
+    <item android:title="Bird List"
+        android:id="@+id/birdListNav"
+        android:icon="@drawable/birdlist"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsNav"
+        android:icon="@drawable/setting"/>
+</menu>

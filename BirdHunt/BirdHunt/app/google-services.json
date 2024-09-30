@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102572037244",
+    "project_id": "birdhunt-aeace",
+    "storage_bucket": "birdhunt-aeace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102572037244:android:4b6fb6d892980836d965f9",
+        "android_client_info": {
+          "package_name": "com.birdhunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnqlgW2ojX2pVe19fTsGWkvBBfkQKQg54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

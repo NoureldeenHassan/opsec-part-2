@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BirdHunt" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Light mode theme -->
+        <item name="colorPrimary">@color/buttonGreen</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.BirdHunt" parent="Base.Theme.BirdHunt" />
+
+    <!-- Customize BottomNavigationView -->
+    <style name="Widget.BottomNavigationView.BirdHunt" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/buttonGreen</item> <!-- Or a custom color -->
+    </style>
+</resources>
