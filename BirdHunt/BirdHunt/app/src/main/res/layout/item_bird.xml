@@ -5,12 +5,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/imageBird"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/bird_image" />
+
 
     <TextView
         android:id="@+id/textViewBirdName"
