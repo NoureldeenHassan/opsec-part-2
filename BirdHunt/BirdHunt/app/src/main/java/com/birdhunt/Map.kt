@@ -8,9 +8,14 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.birdhunt.databinding.ActivityMapBinding
 import com.birdhunt.databinding.ActivityProfileBinding
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
 import kotlin.collections.Map
 
-class Map : AppCompatActivity() {
+class Map : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var binding: ActivityMapBinding
 
@@ -50,5 +55,18 @@ class Map : AppCompatActivity() {
             }
             true
         }
+
+        val mapFragment =
+            supportFragmentManager.findFragmentById(R.id.map_fragment) as? SupportMapFragment
+
+        mapFragment?.getMapAsync(this)
+    }
+
+
+
+    override fun onMapReady(map: GoogleMap) {
+        val latLng = LatLng(33.9137 , 25.5827)
+        map?.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,19f))
     }
 }
+
