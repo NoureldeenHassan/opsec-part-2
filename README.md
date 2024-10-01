@@ -1,3 +1,6 @@
+video link:
+https://youtu.be/9kSfytuqYyo
+
 How the app works:
 
 Open the app in Android Studio and run it.
